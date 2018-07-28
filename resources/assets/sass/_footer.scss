@@ -1,0 +1,14 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  p {
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    font-family: $font-family-sans-serif;
+    text-transform: uppercase;
+  }
+}

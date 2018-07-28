@@ -1,0 +1,38 @@
+//mixin
+@import "mixins";
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+
+// main
+@import "home";
+@import "footer";
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  //background-color: #333
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+#offline {
+  height: 500px;
+  h1 {
+    color: #a0a0a0;
+    font-family: $font-family-sans-serif;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    display: block;
+    vertical-align: middle;
+  }
+}

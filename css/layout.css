@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+/* line 1, ../../resources/assets/sass/_home.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../../resources/assets/sass/_home.scss */
+.header {
+  background: #FF0000;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+  padding: 20px 0 20px 0;
+}
+/* line 10, ../../resources/assets/sass/_home.scss */
+.header h1 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+/* line 21, ../../resources/assets/sass/_home.scss */
+.yt-container {
+  margin: 2em auto;
+  width: 50%;
+  display: block;
+}
+@media screen and (max-width: 767px) {
+  /* line 21, ../../resources/assets/sass/_home.scss */
+  .yt-container {
+    max-width: 80%;
+    width: 100%;
+  }
+}
+/* line 30, ../../resources/assets/sass/_home.scss */
+.yt-container p.trending {
+  color: grey;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+/* line 39, ../../resources/assets/sass/_home.scss */
+.yt-container img {
+  width: 40%;
+  display: block;
+  position: relative;
+  margin: auto;
+  padding-bottom: 30px;
+}
+/* line 47, ../../resources/assets/sass/_home.scss */
+.yt-container h2 {
+  text-align: center;
+  font-weight: 800;
+  color: #282828;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 30px;
+  font-size: 46px;
+}
+/* line 56, ../../resources/assets/sass/_home.scss */
+.yt-container h4 {
+  text-align: center;
+  font-weight: 800;
+  color: #282828;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+/* line 64, ../../resources/assets/sass/_home.scss */
+.yt-container p {
+  color: #282828;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 14px;
+}
+/* line 70, ../../resources/assets/sass/_home.scss */
+.yt-container select {
+  background: transparent;
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border: 1px solid #FF0000;
+  border-radius: 0;
+  height: 34px;
+}
+/* line 80, ../../resources/assets/sass/_home.scss */
+.yt-container iframe {
+  width: 100%;
+  margin: auto;
+}
+
+/* line 1, ../../resources/assets/sass/_footer.scss */
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+}
+/* line 6, ../../resources/assets/sass/_footer.scss */
+.footer p {
+  color: grey;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 16, ../../resources/assets/sass/layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 21, ../../resources/assets/sass/layout.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 26, ../../resources/assets/sass/layout.scss */
+#offline {
+  height: 500px;
+}
+/* line 28, ../../resources/assets/sass/layout.scss */
+#offline h1 {
+  color: #a0a0a0;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 50px;
+  text-transform: uppercase;
+  display: block;
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=layout.css.map */
